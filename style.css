@@ -1,0 +1,48 @@
+.announcements{
+    display: block;
+    color: #000;
+    background-color: #cedafa;
+    padding: 10px 0px;
+    font-family:'Bitly Display Medium','Helvetica Neue',Helvetica,Arial,sans-serif ;
+}
+.chicklet-blue{
+    margin-right: 3px;
+    
+    color: #fff;
+    background-color: #0b1736;
+    font-size: 12.5px;
+    font-weight: bold;
+    padding: 3px;
+    display: inline-block;
+    line-height: 17px;
+    vertical-align: text-top;
+    border-radius: 3px;
+    font-family: "Bitly Display Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: .7px;   
+}
+.announcements p{
+    color: black;
+    font-weight: bold;
+}
+.announcements a{
+    color: black;
+}
+.navbar{
+    background-color: orangered;
+}
+.header{
+    margin-top: 40px;
+    text-align: center;
+}
+.form{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20%;
+    text-align: center;
+}
+.qrcode{
+    display: inline;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 40px;
+}
