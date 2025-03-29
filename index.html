@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+<style>
+  
+</style>
+   <!-- <style>
+      body {
+    background-color: #121212;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.starfield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Now it fills the body */
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    overflow: hidden; /* Hide stars that move out */
+}
+
+.star {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #fff;
+    animation: twinkle 5s linear infinite, moveStars 10s linear infinite; /* Both animations */
+}
+
+.star:nth-child(odd) {
+    width: 2px;
+    height: 2px;
+    opacity: 0.6;
+}
+
+.star:nth-child(even) {
+    width: 3px;
+    height: 3px;
+    opacity: 0.8;
+}
+
+@keyframes twinkle {
+    0% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.6;
+    }
+}
+
+@keyframes moveStars {
+    0% {
+        transform: translateX(0) translateY(0); /* Start position */
+    }
+    100% {
+        transform: translateX(100vw) translateY(100vh); /* Move across the screen */
+    }
+}
+
+.login-container {
+    /* Your existing styles for the login form container */
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5); /* Example: slightly transparent background */
+}
+    </style>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+  function createStars() {
+    const starfield = document.createElement('div');
+    starfield.classList.add('starfield');
+      // Number of stars
+    const numStars = 200;
+        // loop the amount of stars that have to make
+    for (let i = 0; i < numStars; i++) {
+      const star = document.createElement('div');
+      star.classList.add('star');
+
+      const x = Math.random() * 100; // random position
+      const y = Math.random() * 100;
+          // Random animation delay
+      const animationDelay = Math.random() * 10; // random delay in secs
+
+      star.style.left = `${x}%`;
+      star.style.top = `${y}%`;
+          // Apply animation and animation delay inline
+      star.style.animationDelay = `-${animationDelay}s`;
+      star.style.animationDuration = `${Math.random() * 5 + 5}s` // random duration in secs
+
+      starfield.appendChild(star);
+    }
+    // add starfield class elements to html page (body)
+    document.body.appendChild(starfield);
+  }
+
+  createStars();
+});
+    </script>
+  
+  -->
+  </head>
+  <body style="background-color: #333;">
+    <div id="root">
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
